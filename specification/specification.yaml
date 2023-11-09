@@ -64,6 +64,7 @@ paths:
         401:
           description: Не авторизованный пользователь
 
+
   /offers/details:
     get:
       tags:
