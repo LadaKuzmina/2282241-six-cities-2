@@ -334,3 +334,4 @@ components:
         author:
           type: string
           example: 'Иван Петров'
+
