@@ -64,28 +64,6 @@ paths:
         401:
           description: Не авторизованный пользователь
 
-#  /offers/new:
-#    get:
-#      tags:
-#        - offers
-#      summary:  Список новых объявлений
-#      responses:
-#        200:
-#          description:  Список новых объявлений успешно получен
-#        400:
-#          description: Новых объявлений нет
-
-#  /offers/popular:
-#    get:
-#      tags:
-#        - offers
-#      summary: Список обсуждаемых объявлений
-#      responses:
-#        200:
-#          description: Список обсуждаемых объявлений успешно получен
-#        400:
-#          description: Обсуждаемых объявлений нет
-
   /offers/details:
     get:
       tags:
@@ -325,7 +303,6 @@ components:
           type: string
           example:
 
-
     createComments:
       type: object
       properties:
@@ -335,4 +312,3 @@ components:
         author:
           type: string
           example: 'Иван Петров'
-
